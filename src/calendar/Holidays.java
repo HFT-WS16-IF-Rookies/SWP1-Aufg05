@@ -38,12 +38,6 @@ public class Holidays
         NEWYEARS_EVE
     }
 
-    public Holidays()
-    {
-        // Roughly 1 lines of implementation
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
-
     public static Holidays.DAY_CLASS classifyWeekday(Date date)
     {
         // Roughly 9 lines of implementation
