@@ -1,6 +1,5 @@
 /**
- * Created by Classdumper, User Peter Heusch
- * Creation Date: 21.10.2017 10:05:26
+ * @Marco Schäfer
  */
 package calendar;
 
@@ -38,8 +37,7 @@ public class CalendarHelper
 
     public static int getCalWeekYear(Calendar cal)
     {
-        // Roughly 1 lines of implementation
-        throw new UnsupportedOperationException("Not yet implemented");
+        return cal.getWeekYear();
     }
 
     public static Calendar getDayOf(Calendar month, int day, int count)
@@ -50,8 +48,7 @@ public class CalendarHelper
 
     public static int getThursday(Calendar cal)
     {
-        // Roughly 1 lines of implementation
-        throw new UnsupportedOperationException("Not yet implemented");
+        return cal.THURSDAY;
     }
 
     public static Calendar[] getDayRange(Calendar start, Calendar pauseFrom, Calendar pauseTo, int count, int step)
@@ -62,7 +59,6 @@ public class CalendarHelper
 
     public static int getCalWeekWeek(Calendar cal)
     {
-        // Roughly 1 lines of implementation
-        throw new UnsupportedOperationException("Not yet implemented");
+        return cal.getWeeksInWeekYear();
     }
 }
