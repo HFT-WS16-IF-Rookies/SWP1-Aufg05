@@ -1,7 +1,6 @@
 /**
- * Created by Classdumper, User Peter Heusch
- * Creation Date: 21.10.2017 10:05:26
- */
+ * @author Thursaan Yogeswaran
+*/
 package calendar;
 
 import de.hft_stuttgart.unittest.loader.Skeleton;
