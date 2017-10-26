@@ -3,17 +3,10 @@
  */
 package calendar;
 
-import de.hft_stuttgart.unittest.loader.Skeleton;
 import java.util.Date;
 
-@Skeleton
 public class Holidays
 {
-
-    static
-    {
-        System.err.println("Please call injectClass(\"calendar.Holidays\"), you've imported a skeleton");
-    }
 
     public static enum DAY_CLASS
     {
