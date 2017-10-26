@@ -1,6 +1,5 @@
 /**
- * Created by Classdumper, User Peter Heusch
- * Creation Date: 21.10.2017 10:05:26
+ * @author Lukas Wiest
  */
 package calendar;
 
