@@ -65,8 +65,10 @@ public class Holidays
 
     public static Holidays.DAY_CLASS classifyHoliday(Date date)
     {
-        // Roughly 42 lines of implementation
-        throw new UnsupportedOperationException("Not yet implemented");
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(date);
+
+        return null;
     }
 
     static int easterSunday(int X)
